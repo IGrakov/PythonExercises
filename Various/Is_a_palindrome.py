@@ -1,8 +1,6 @@
 # Write a function that checks whether it is possible
 # to make a palindrome from a given string
 
-import unittest
-
 
 def is_palindrome(src_str: str) -> bool:
     if type(src_str) != str:
