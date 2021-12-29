@@ -1,4 +1,4 @@
-# Write a function matrix_challenge(str_lst) read list of strings stored in str_lst,
+# Write a function matrix_challenge(str_lst) that reads a list of strings stored in str_lst,
 # which will contain 2 elements: the first element will represent a 4x4 matrix of letters,
 # and the second element will be a long string of comma-separated words each at least 3 letters long,
 # in alphabetical order, that represents a dictionary of some arbitrary length.
