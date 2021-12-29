@@ -21,21 +21,4 @@ def is_palindrome(src_str: str) -> bool:
     return count <= 1
 
 
-class IsPalindromeTest(unittest.TestCase):
 
-    def test_arg_type(self):
-        self.assertRaises(
-            TypeError,
-            is_palindrome,
-            1
-        )
-
-    def test_is_palindrome(self):
-        with self.subTest():
-            self.assertTrue(
-                is_palindrome("asasu")
-            )
-        with self.subTest():
-            self.assertFalse(
-                is_palindrome("asasua")
-            )
